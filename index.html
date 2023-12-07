@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curated for You</title>
+    <style>
+       .curated {
+          display: flex;
+          text-align: center;
+          font-size: 1.5rem;
+          gap:50px;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+       }
+       img {
+          height:200px;
+         width:200px;
+       }
+       a {
+         color:red;
+       }
+       body {
+        background-color: black;
+        height:100vh;
+        color:white;
+       }
+       h1 {
+        font-size: 2.5rem;
+
+       }
+       .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+
+       }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+                <h1>You might like</h1>
+                <hr />
+          </div>
+            <div class="curated">
+               <div class="movie">
+                   <img src="A-boy-called-Christmas.png" alt="A-boy-called-Christmas" />
+                   <a href="#">A Boy called Christmas</a>
+               </div>
+              <div class="movie">
+                 <img src="holidate-movie.png" alt="holidate-movie" />
+                 <a href="#">Holidate</a>
+              </div>
+               <div class="movie">
+                  <img src="falling-for-christmas-movie.png" alt="falling-for-christmas-movie" />
+                  <a href="#">Falling for Christmas</a>
+              </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
